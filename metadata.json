@@ -1,0 +1,6 @@
+{
+  "name": "ExamFormTools",
+  "description": "Prepare your photographs, signatures and documents for Indian government job applications with free online tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
