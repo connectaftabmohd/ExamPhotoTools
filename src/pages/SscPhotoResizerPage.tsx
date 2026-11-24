@@ -24,7 +24,7 @@ const SSC_FAQS = [
   {
     question: 'Does SSC Photo Resizer automatically invent or lock dimensions?',
     answer:
-      'No. ExamFormTools never invents official SSC specifications. Width, height, minimum KB, and maximum KB fields are fully editable so you can enter the exact rules from your current SSC notification.',
+      'No. ExamPhotoTools never invents official SSC specifications. Width, height, minimum KB, and maximum KB fields are fully editable so you can enter the exact rules from your current SSC notification.',
   },
   {
     question: 'Can I save my SSC notification dimensions for later?',

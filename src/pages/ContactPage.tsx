@@ -14,7 +14,7 @@ export function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const supportEmail = 'support@examformtools.in';
+  const supportEmail = 'support@examphototools.in';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +40,7 @@ export function ContactPage() {
 
   const handleCopyMessage = async () => {
     try {
-      await navigator.clipboard.writeText(`To: ${supportEmail}\nSubject: [ExamFormTools] ${topic}\n\n${formattedBody}`);
+      await navigator.clipboard.writeText(`To: ${supportEmail}\nSubject: [ExamPhotoTools] ${topic}\n\n${formattedBody}`);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000);
     } catch {
@@ -53,7 +53,7 @@ export function ContactPage() {
       <section className="border-b border-slate-200 bg-[#F4F8FD]">
         <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Contact' }]} />
-          <h1 className="text-3xl font-extrabold tracking-tight text-[#0F294A] sm:text-4xl">Contact ExamFormTools</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight text-[#0F294A] sm:text-4xl">Contact ExamPhotoTools</h1>
           <p className="mt-3 text-base leading-relaxed text-slate-600">
             Have feedback, a bug report, or a suggestion for a new Indian exam form utility? Reach out to us below.
           </p>
@@ -69,7 +69,7 @@ export function ContactPage() {
                 <span>Direct Email</span>
               </div>
               <p className="text-sm text-slate-600">
-                Because ExamFormTools operates purely as a static, privacy-first web app with no backend database, we do
+                Because ExamPhotoTools operates purely as a static, privacy-first web app with no backend database, we do
                 not store contact submissions on a server.
               </p>
               <a
@@ -162,7 +162,7 @@ export function ContactPage() {
                   <p className="font-semibold">Message validated and ready to send via your email client.</p>
                   <div className="flex flex-wrap gap-2">
                     <a
-                      href={`mailto:${supportEmail}?subject=${encodeURIComponent(`[ExamFormTools] ${topic}`)}&body=${encodeURIComponent(formattedBody)}`}
+                      href={`mailto:${supportEmail}?subject=${encodeURIComponent(`[ExamPhotoTools] ${topic}`)}&body=${encodeURIComponent(formattedBody)}`}
                       className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-700 px-3.5 py-2 text-xs font-semibold text-white hover:bg-emerald-800"
                     >
                       <Mail className="h-3.5 w-3.5" aria-hidden="true" />

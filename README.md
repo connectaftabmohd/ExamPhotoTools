@@ -1,4 +1,4 @@
-# ExamFormTools
+# ExamPhotoTools
 
 Free, browser-native photo, signature, and age eligibility utilities built for Indian government recruitment form applicants (SSC, UPSC, UP Police, UPSSSC, Railways, and more).
 

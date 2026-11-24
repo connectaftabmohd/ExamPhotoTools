@@ -6,8 +6,8 @@ import { usePageMeta } from '@/src/hooks/usePageMeta';
 export function NotFoundPage() {
   usePageMeta({
     routePath: '/',
-    customTitle: 'Page Not Found (404) | ExamFormTools',
-    customDescription: 'The page you requested could not be found on ExamFormTools.',
+    customTitle: 'Page Not Found (404) | ExamPhotoTools',
+    customDescription: 'The page you requested could not be found on ExamPhotoTools.',
   });
 
   return (

@@ -333,11 +333,11 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Why Use ExamFormTools */}
+      {/* Why Use ExamPhotoTools */}
       <section aria-labelledby="why-use-heading" className="border-y border-slate-200 bg-[#F4F8FD]">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
           <h2 id="why-use-heading" className="text-2xl sm:text-3xl font-bold tracking-tight text-[#0F294A]">
-            Why Use ExamFormTools?
+            Why Use ExamPhotoTools?
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-xl border border-slate-200 bg-white p-6">

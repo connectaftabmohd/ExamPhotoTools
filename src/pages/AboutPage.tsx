@@ -11,7 +11,7 @@ export function AboutPage() {
       <section className="border-b border-slate-200 bg-[#F4F8FD]">
         <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'About' }]} />
-          <h1 className="text-3xl font-extrabold tracking-tight text-[#0F294A] sm:text-4xl">About ExamFormTools</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight text-[#0F294A] sm:text-4xl">About ExamPhotoTools</h1>
           <p className="mt-3 text-base leading-relaxed text-slate-600">
             Free, privacy-first online utilities built for Indian government recruitment candidates preparing SSC, UPSC,
             UP Police, UPSSSC, Railway, and state examination applications.
@@ -21,7 +21,7 @@ export function AboutPage() {
 
       <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8 space-y-10 text-sm sm:text-base leading-relaxed text-slate-700">
         <section className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0F294A]">Why We Built ExamFormTools</h2>
+          <h2 className="text-2xl font-bold text-[#0F294A]">Why We Built ExamPhotoTools</h2>
           <p>
             Every year, millions of candidates across India fill out online forms for Staff Selection Commission (SSC),
             Union Public Service Commission (UPSC), Uttar Pradesh Police (UPPRPB), UPSSSC, RRB, and banking exams. A
@@ -29,7 +29,7 @@ export function AboutPage() {
           </p>
           <p>
             Many random online resizers upload sensitive personal photographs to remote servers, add watermarks, or show
-            outdated exam presets that contradict newly released notifications. ExamFormTools solves this by running
+            outdated exam presets that contradict newly released notifications. ExamPhotoTools solves this by running
             everything inside your browser at zero cost (₹0).
           </p>
         </section>

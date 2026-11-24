@@ -26,7 +26,7 @@ export function Header() {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0F294A] text-white">
             <FileCheck2 className="h-4.5 w-4.5" aria-hidden="true" />
           </span>
-          <span>ExamFormTools</span>
+          <span>ExamPhotoTools</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6" aria-label="Main navigation">

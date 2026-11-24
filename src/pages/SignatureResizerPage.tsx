@@ -24,7 +24,7 @@ const SIGN_FAQS = [
   {
     question: 'What does "Preserve Original Signature Appearance" do?',
     answer:
-      'When enabled, ExamFormTools keeps your original pen strokes, ink color, and natural texture unaltered while filling any transparent PNG background with crisp white when converting to JPG.',
+      'When enabled, ExamPhotoTools keeps your original pen strokes, ink color, and natural texture unaltered while filling any transparent PNG background with crisp white when converting to JPG.',
   },
   {
     question: 'Can I remove dark shadows from paper if my phone photo looks grey?',

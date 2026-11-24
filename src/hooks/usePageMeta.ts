@@ -31,7 +31,7 @@ function upsertCanonical(href: string) {
 export function usePageMeta({ routePath, customTitle, customDescription, faqs }: UsePageMetaOptions) {
   useEffect(() => {
     const meta = ROUTE_SEO_META[routePath];
-    const title = customTitle || meta?.title || 'ExamFormTools – Free Photo, Signature & Exam Form Tools';
+    const title = customTitle || meta?.title || 'ExamPhotoTools – Free Photo, Signature & Exam Form Tools';
     const description =
       customDescription ||
       meta?.description ||

@@ -11,7 +11,7 @@ export function PrivacyPolicyPage() {
           <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Privacy Policy' }]} />
           <h1 className="text-3xl font-extrabold tracking-tight text-[#0F294A] sm:text-4xl">Privacy Policy</h1>
           <p className="mt-3 text-base text-slate-600">
-            How ExamFormTools handles your photographs, signatures, and personal form data.
+            How ExamPhotoTools handles your photographs, signatures, and personal form data.
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export function PrivacyPolicyPage() {
         <section className="space-y-2.5">
           <h2 className="text-xl font-bold text-[#0F294A]">1. Local In-Browser Image Processing</h2>
           <p>
-            Every image uploaded to ExamFormTools—including passport photographs, recruitment photographs, and
+            Every image uploaded to ExamPhotoTools—including passport photographs, recruitment photographs, and
             handwritten signatures—is processed strictly locally inside your own web browser using native browser
             technologies (HTML Canvas API, File API, Blob API, and Web Workers).
           </p>
@@ -29,7 +29,7 @@ export function PrivacyPolicyPage() {
         <section className="space-y-2.5">
           <h2 className="text-xl font-bold text-[#0F294A]">2. Zero Server Uploads</h2>
           <p>
-            ExamFormTools does not upload your photographs, signatures, or Date of Birth inputs to our servers or any
+            ExamPhotoTools does not upload your photographs, signatures, or Date of Birth inputs to our servers or any
             third-party external image-processing API. Your files never leave your device while using our tools.
           </p>
         </section>
@@ -37,7 +37,7 @@ export function PrivacyPolicyPage() {
         <section className="space-y-2.5">
           <h2 className="text-xl font-bold text-[#0F294A]">3. No Permanent Storage of Photographs or Signatures</h2>
           <p>
-            ExamFormTools does not permanently store photographs or signatures. Temporary browser object URLs and canvas
+            ExamPhotoTools does not permanently store photographs or signatures. Temporary browser object URLs and canvas
             memory buffers used during editing are revoked and cleared when you click the Reset button, replace an
             image, or close/refresh the browser tab.
           </p>

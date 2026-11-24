@@ -11,7 +11,7 @@ export function Footer() {
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#1D4ED8] text-white">
                 <FileCheck2 className="h-4.5 w-4.5" aria-hidden="true" />
               </span>
-              <span>ExamFormTools</span>
+              <span>ExamPhotoTools</span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-slate-400">
               Free Photo, Signature &amp; Exam Form Tools for Indian government recruitment candidates.
@@ -79,7 +79,7 @@ export function Footer() {
             <ul className="mt-3 space-y-2.5 text-sm">
               <li>
                 <Link to="/about" className="hover:text-white transition-colors">
-                  About ExamFormTools
+                  About ExamPhotoTools
                 </Link>
               </li>
               <li>
@@ -107,7 +107,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-slate-800 pt-6 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} ExamFormTools. Built for Indian government job aspirants.</p>
+          <p>© {new Date().getFullYear()} ExamPhotoTools. Built for Indian government job aspirants.</p>
           <p>Timezone: Asia/Kolkata (IST) · Always verify specifications in official exam notifications.</p>
         </div>
       </div>

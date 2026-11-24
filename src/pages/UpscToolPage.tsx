@@ -30,9 +30,9 @@ const UPSC_FAQS = [
       'UPSC applications require different pixel dimensions, aspect ratios, and KB limits for your photograph versus your handwritten signature. Independent panels let you configure and download each without overwriting the other.',
   },
   {
-    question: 'Does ExamFormTools guarantee that my output satisfies every UPSC notification?',
+    question: 'Does ExamPhotoTools guarantee that my output satisfies every UPSC notification?',
     answer:
-      'No. ExamFormTools does not claim that generated images automatically satisfy every UPSC notification. Always double-check pixel bounds, KB range, background rules, and file format in the official UPSC examination notice.',
+      'No. ExamPhotoTools does not claim that generated images automatically satisfy every UPSC notification. Always double-check pixel bounds, KB range, background rules, and file format in the official UPSC examination notice.',
   },
   {
     question: 'Can I convert a PNG signature scan to JPG for UPSC?',

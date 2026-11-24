@@ -20,7 +20,7 @@ export function DisclaimerPage() {
         <section className="space-y-2">
           <h2 className="text-xl font-bold text-[#0F294A]">No Government Affiliation</h2>
           <p>
-            ExamFormTools is an independent, non-government online utility website. It is not affiliated with, endorsed
+            ExamPhotoTools is an independent, non-government online utility website. It is not affiliated with, endorsed
             by, or connected to the Staff Selection Commission (SSC), Union Public Service Commission (UPSC), Uttar
             Pradesh Police Recruitment &amp; Promotion Board (UPPRPB), UPSSSC, Railway Recruitment Boards (RRB), or any
             state or central government agency.
